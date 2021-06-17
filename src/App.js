@@ -9,7 +9,7 @@ import ResultList from "@appbaseio/reactivesearch/lib/components/result/ResultLi
 class App extends Component {
   render() {
     return (
-        <div className="main-container">
+        <div className="main-container  bg-img">
           <ReactiveBase
               app="countries"
               url="http://localhost:9200"
@@ -20,7 +20,7 @@ class App extends Component {
               }}
           >
             <div className="filters-search-container">
-              <div className="search-container">
+              <div className="search-container" >
                 <SingleList
                     size={300}
                     componentId="CountrySensor"
